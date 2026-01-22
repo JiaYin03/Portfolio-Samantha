@@ -29,6 +29,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-3">
         <li>Mandarin (Native)</li>
         <li>English (Intermediate)</li>
+        <li>Cantonese (Intermediate)</li>
         <li>Malay (Intermediate)</li>
       </ul>
     ),
@@ -45,22 +46,12 @@ const TAB_DATA = [
             <h3 className="text-xl font-semibold text-white">Asia Pacific University (APU), Kuala Lumpur</h3>
             <ul className="list-disc pl-6 mt-2 space-y-1">
             <li>
-                Bachelor of Computer Science (Data Analytics)
-                <span className="text-[#ADB7BE]"> — CGPA 3.86</span>
+                BSc in Computer Science specialism in Data Analytics
+                <span className="text-[#ADB7BE]"> — CGPA 3.34</span>
             </li>
             <li>
-                Diploma in ICT (Data Informatics)
-                <span className="text-[#ADB7BE]"> — CGPA 3.89</span>
-            </li>
-            </ul>
-        </div>
-
-        {/* SMK */}
-        <div>
-            <h3 className="text-xl font-semibold text-white">SMK Pengerang Utama, Johor</h3>
-            <ul className="list-disc pl-6 mt-2">
-            <li>
-                SPM <span className="text-[#ADB7BE]">— 10A</span>
+                Foundation in Computing
+                <span className="text-[#ADB7BE]"> — CGPA 3.74</span>
             </li>
             </ul>
         </div>
@@ -87,7 +78,7 @@ const AboutMe = () => {
         {/* LEFT IMAGE */}
         <div className="flex justify-center md:justify-start">
           <img
-            src="/AboutMe.jpg"
+            src="/Samantha's Pic 2.jpeg"
             alt="About Me"
             className="w-64 sm:w-80 md:w-[420px] rounded-2xl object-cover"
           />
@@ -100,12 +91,14 @@ const AboutMe = () => {
           </h1>
 
           <p className="text-base text-justify lg:text-lg leading-relaxed">
-            I am Sim Sau Yang, a Computer Science (Data Analytics) graduate from Asia Pacific University Malaysia.
-            I enjoy working with raw, messy data and transforming it into meaningful insights through data preparation, modelling, and visualisation.
-
-            My experience spans across business intelligence, data validation, dashboard development, and automated reporting. I enjoy uncovering patterns, improving data reliability, and building analytical solutions that support decision-making.
-
-            Outside of work, I enjoy sports and discovering new food spots, and start exploring photography. I love learning new things and continuously challenging myself to grow both personally and professionally.
+            Hello! I'm Samantha Kok Jia Yin, a Computer Science graduate from Asia Pacific University, specializing in Data Analytics. My passion for data comes from how numbers can reveal patterns and help us understand what might happen next.
+          </p>
+          <p className="text-base text-justify lg:text-lg leading-relaxed mt-4">
+            I love transforming raw data into meaningful insights. There's something satisfying about exploring messy datasets, cleaning them up, and uncovering information that actually helps people make better decisions. For me, data analytics goes beyond just numbers, it's about finding the story they tell and using that to predict better outcomes.
+          </p>
+          <p className="text-base text-justify lg:text-lg leading-relaxed mt-4">
+            During my internship as a Business Intelligence Analyst, I helped transition our reporting from Excel to Power BI. This shift was a game changer since the dashboards updated every three hours, making the data much more accessible and speeding up their decision-making process.
+            Outside of work, I'm really into photography. I enjoy being both behind the camera and in front of it as a model. I also love playing badminton. There's nothing quite like the rush of a good match!
           </p>
 
           {/* Tabs */}

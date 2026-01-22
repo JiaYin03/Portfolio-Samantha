@@ -46,7 +46,7 @@ const EmailSection = () => {
           </Link>
 
           {/* Email */}
-          <Link href="mailto:sauyang0308@gmail.com">
+          <Link href="mailto:samanthakokjiayin@gmail.com">
             <EnvelopeIcon className="h-8 w-8 text-white hover:text-teal-300 transition cursor-pointer" />
           </Link>
 

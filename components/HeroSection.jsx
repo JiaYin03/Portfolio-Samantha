@@ -29,7 +29,7 @@ const HeroSection = () => {
               text-7xl sm:text-8xl md:text-9xl 
               bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
             >
-              Sau Yang
+              Samantha Kok
             </span>
 
             <br />
@@ -68,7 +68,7 @@ const HeroSection = () => {
             </Link>
 
             <Link
-              href="https://drive.google.com/file/d/1Tp_oN9r3C8nmfuoYnEMwiFbWFGijb70P/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ruLBaM3Skl2SBMejeG84V9DVJmtYMBNw/view?usp=drive_link"
               className="px-8 py-3 rounded-full border-2 border-pink-500 hover:bg-pink-400 transition"
             >
               <span className="text-lg sm:text-xl text-white">My Resume</span>
@@ -86,7 +86,7 @@ const HeroSection = () => {
           {/* OVAL WRAPPER */}
           <div className="relative w-60 sm:w-72 md:w-80 lg:w-[400px] aspect-[3/4] rounded-[999px] overflow-hidden bg-black">
             <img
-              src="/Hero-Section.jpg"
+              src="/Samantha's Pic.jpeg"
               alt="hero"
               className="w-full h-full object-cover"
             />
