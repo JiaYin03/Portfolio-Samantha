@@ -2,7 +2,7 @@ import React from "react";
 
 // Auto-calculate age based on birthdate
 const getAge = () => {
-  const birthDate = new Date(2003, 4, 8); // Month is 0-indexed: 4 = May
+  const birthDate = new Date(2003, 10, 12); // Month is 0-indexed: 10 = November
   const today = new Date();
 
   let age = today.getFullYear() - birthDate.getFullYear();

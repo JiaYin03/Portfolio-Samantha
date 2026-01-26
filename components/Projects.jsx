@@ -4,83 +4,20 @@ import ProjectCard from "./ProjectCard";
 const projectData = [
     // Final Year Project
     {
-    title: "Debate Analyzer  (FYP)",
-    description: "AI system for argument mining and fallacy detection with transformer models DeBERTa, deployed using Streamlit.",
-    image: "/projects/DebateAnalyser.png",
-    gitUrl: "https://github.com/Sauyang520/debate-analyser-space",
+    title: "Predict Target Sales  (FYP)",
+    description: "A machine learning project that predicts sales targets for retail stores using historical sales data, deployed using Streamlit.",
+    image: "/projects/Sales Forecasting (FYP).png",
+    gitUrl: "https://github.com/JiaYin03/Predicting_Sales_Target",
     },
 
-    // Sound Classification
+    // ODL Project
     {
-    title: "Musical Instrument Sound Classification",
-    description: "A deep learning project that classifies musical instrument sounds using spectrogram-based CNN and sequential BiGRU models.",
-    image: "/projects/MusicInstrumentClassification.png",
-    gitUrl: "https://github.com/Sauyang520/Music-Instrument-Classification",
+    title: "Credit Card Fraud Detection",
+    description: "A deep learning project that compares multiple architectures for fraud detection and implements an optimized DNN model achieving the best balance of accuracy, precision, and recall.",
+    image: "/projects/Credit Card Fraud Detection.png",
+    gitUrl: "https://github.com/JiaYin03/Credit-Card-Fraud-Detection",
     },
 
-    // Visualisation & Analysis
-    {
-    title: "Data Visualisation & Analysis",
-    description: "A collection of dashboards and reports projects built using Power BI and R.",
-    image: "/projects/powerbi.png",
-    gitUrl: "https://github.com/Sauyang520/My-Analysis",
-    },
-
-    // Movie Review Classification
-    {
-    title: "IMDB Movie Review Classification",
-    description: "A neural model BiLSTM built to classify movie reviews into positive or negative sentiment.",
-    image: "/projects/classification_ROC.png",
-    gitUrl: "https://github.com/Sauyang520/IMDB_classification",
-    },
-    
-    // Database Security Management
-    {
-    title: "Database Security Management Assignment",
-    description: "A complete security design on medical system database.",
-    image: "/projects/DatabaseSecurity.png",
-    gitUrl: "https://github.com/Sauyang520/Database-Security",
-    },
-    
-    // Hotel Booking System
-    {
-    title: "ABC Hotel Booking System",
-    description: "A hotel management system enabling room reservation, check-in, and admin operations.",
-    image: "/projects/ABCHotelBookingSystem.png",
-    gitUrl: "https://github.com/Sauyang520/ABCHotelBooking",
-    },
-
-    // Food Ordering System
-    {
-    title: "Doremi Cafeteria Ordering System",
-    description: "A digital ordering system designed for school cafeteria operations.",
-    image: "/projects/DoremiFoodSystem.png",
-    gitUrl: "https://github.com/Sauyang520/DoremiFoodSystem",
-    },
-
-    // Furniture System
-    {
-    title: "Yoyo Furniture Trading System",
-    description: "A business management system for furniture trading operations.",
-    image: "/projects/YoyoFurniture.png",
-    gitUrl: "https://github.com/Sauyang520/Yoyo-Furniture",
-    },
-
-    // Chrome Extension
-    {
-    title: "APU TradingView Extension",
-    description: "A Chrome extension for extracting historical and real-time trading data from TradingView.",
-    image: "/projects/APUExtension.png",
-    gitUrl: "https://github.com/Sauyang520/APU-Extension",
-    },
-
-    // Photography Collection
-    {
-    title: "Photography Collection",
-    description: "My random photography collection",
-    image: "/projects/Photography.jpg",
-    gitUrl: "https://drive.google.com/drive/folders/1TI54Ikzi70cYBvCjZ33_BivbjgJ5cKPo?usp=sharing",
-    },
 ];
 
 const Projects = () => {

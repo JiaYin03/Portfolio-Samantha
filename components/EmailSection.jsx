@@ -31,18 +31,13 @@ const EmailSection = () => {
         <div className="flex flex-row items-center gap-6 mt-4 text-white">
 
           {/* GitHub */}
-          <Link href="https://github.com/Sauyang520" target="_blank">
+          <Link href="https://github.com/JiaYin03" target="_blank">
             <FaGithub className="h-8 w-8 hover:text-teal-300 transition cursor-pointer" />
           </Link>
 
           {/* LinkedIn */}
-          <Link href="https://www.linkedin.com/in/sau-yang-sim" target="_blank">
+          <Link href="https://www.linkedin.com/in/samantha-kok-jia-yin-865434290/" target="_blank">
             <FaLinkedinIn className="h-8 w-8 hover:text-teal-300 transition cursor-pointer" />
-          </Link>
-
-          {/* Instagram */}
-          <Link href="https://www.instagram.com/_sauyang_/" target="_blank">
-            <FaInstagram className="h-8 w-8 hover:text-teal-300 transition cursor-pointer" />
           </Link>
 
           {/* Email */}
