@@ -18,6 +18,30 @@ const projectData = [
     gitUrl: "https://github.com/JiaYin03/Credit-Card-Fraud-Detection",
     },
 
+    // Power BI Project
+    {
+    title: "Fusion Bike Sales Dashboard",
+    description: "Able to visualize and understand the current and past business performance for the company.",
+    image: "/projects/Fusion Bike Company (Power Bi).png",
+    gitUrl: "https://github.com/JiaYin03/Fusion-Bike-Sales-Dashboard-Power-Bi-",
+    },
+
+    // RTS Project
+    {
+    title: "Robotic Cup Handling System",
+    description: "This project focuses on developing a real-time robotic cup-handling simulation system using Rust.",
+    image: "/projects/RTS assm cover.png",
+    gitUrl: "https://github.com/JiaYin03/Robotic-Cup-Handling-System",
+    },
+
+    // PFDA Project
+    {
+    title: "Predicting the Furnishing Status within the city",
+    description: "This project focuses on Predicting the impact of furnishing status on price in Mont Kiara using R Programming.",
+    image: "/projects/PFDA assm cover.png",
+    gitUrl: "https://github.com/JiaYin03/Predict-the-furnishing-status-within-the-city",
+    },
+
 ];
 
 const Projects = () => {
